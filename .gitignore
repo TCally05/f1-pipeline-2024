@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+data/f1_2024.db
+.env
+.DS_Store
