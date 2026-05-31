@@ -4,7 +4,6 @@ A fully automated data engineering pipeline that extracts real Formula 1 race da
 
 Built as a portfolio project to demonstrate end-to-end data engineering skills — from raw API data to a fully interactive dashboard.
 
----
 
 ## 📸 Dashboard Preview
 
@@ -14,7 +13,6 @@ Built as a portfolio project to demonstrate end-to-end data engineering skills �
 > - Pit stop duration analysis by circuit
 > - Race-by-race finishing results
 
----
 
 ## 🛠️ Tech Stack
 
@@ -29,7 +27,6 @@ Built as a portfolio project to demonstrate end-to-end data engineering skills �
 | Plotly | Charts and visualizations |
 | Git + GitHub | Version control and portfolio hosting |
 
----
 
 ## 📦 Data Source
 
@@ -41,7 +38,6 @@ Endpoints used:
 - `/position` — lap-by-lap position data (used to derive finishing positions)
 - `/pit` — pit stop timing and duration data
 
----
 
 ## 🏗️ Project Structure
 
@@ -61,7 +57,6 @@ f1-pipeline-2024/
 └── README.md                # This file
 ```
 
----
 
 ## ⚙️ Pipeline Architecture
 
@@ -81,7 +76,6 @@ load.py             ← Writes to SQLite (4 tables: sessions, drivers,
 dashboard.py        ← Reads from SQLite, renders Streamlit charts
 ```
 
----
 
 ## 📊 Database Schema
 
@@ -125,7 +119,6 @@ dashboard.py        ← Reads from SQLite, renders Streamlit charts
 | stop_duration | Stationary time in pit box (seconds) |
 | location | Race location |
 
----
 
 ## 🚀 How to Run
 
@@ -171,7 +164,6 @@ streamlit run dashboard.py
 
 Open your browser to `http://localhost:8501`
 
----
 
 ## 📋 Requirements
 
@@ -188,8 +180,6 @@ Install all with:
 pip install -r requirements.txt
 ```
 
----
-
 ## 🔑 Key Concepts Demonstrated
 
 - **ETL pipeline design** — separation of extract, transform, and load into distinct modules
@@ -202,7 +192,6 @@ pip install -r requirements.txt
 - **Virtual environments** — isolating project dependencies with venv
 - **Version control** — managing code with Git and GitHub
 
----
 
 ## 🗺️ Roadmap
 
@@ -212,15 +201,6 @@ pip install -r requirements.txt
 - [ ] Schedule pipeline to auto-run after each race weekend
 - [ ] Deploy dashboard to Streamlit Community Cloud
 
----
-
-## 👤 Author
-
-**Taylor** — [@TCally05](https://github.com/TCally05)
-
-Built as part of a data engineering learning journey, starting from zero and building toward advanced cloud pipelines.
-
----
 
 ## 📄 License
 
