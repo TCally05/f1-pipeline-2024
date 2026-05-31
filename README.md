@@ -205,3 +205,9 @@ pip install -r requirements.txt
 ## 📄 License
 
 MIT License — free to use, modify, and share.
+
+
+
+<img width="1825" height="997" alt="f1 dashboard_3" src="https://github.com/user-attachments/assets/0325b84c-5362-498b-8c66-b3582b6e6e02" />
+<img width="1856" height="872" alt="F1 Dashboard" src="https://github.com/user-attachments/assets/4d08623f-ea0b-40e3-9728-9c59ab322b77" />
+
